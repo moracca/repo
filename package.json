@@ -32,7 +32,9 @@
     "ios": "expo run:ios",
     "web": "expo start --web",
     "dev:android": "npm run bundle:web && npm run android",
-    "test": "jest"
+    "dev:ios": "npm run bundle:web && npm run ios",
+    "test": "jest",
+    "postinstall": "cp patches/RuntimeScheduler.h node_modules/expo-modules-jsi/apple/Sources/ExpoModulesJSI-Cxx/include/RuntimeScheduler.h 2>/dev/null || true"
   },
   "type": "module",
   "private": true,
