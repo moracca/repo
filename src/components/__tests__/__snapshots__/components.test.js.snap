@@ -1,0 +1,576 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DreamListCard renders a dream card with tags and matches snapshot 1`] = `
+<View
+  accessibilityHint="Opens dream details"
+  accessibilityLabel="Dream from Saturday, 4:30 AM 8/15/26"
+  accessibilityRole="button"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    [
+      {
+        "alignSelf": "stretch",
+        "backgroundColor": "#38105c",
+        "borderRadius": 8,
+        "marginBottom": 16,
+        "padding": 16,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#fafafa",
+        "fontSize": 20,
+        "fontWeight": "bold",
+        "marginBottom": 8,
+      }
+    }
+  >
+    Saturday, 4:30 AM 8/15/26
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#c2f7ff",
+        "fontSize": 10,
+        "marginBottom": 8,
+      }
+    }
+  >
+    (
+    23 days ago
+    )
+  </Text>
+  <Text
+    numberOfLines={3}
+    style={
+      {
+        "color": "#c2f7ff",
+        "fontSize": 16,
+      }
+    }
+  >
+    I was flying over a vast purple ocean with glowing fish beneath the surface.
+  </Text>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "marginTop": 8,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "backgroundColor": "#dc07a7",
+          "borderRadius": 4,
+          "color": "#fafafa",
+          "fontSize": 12,
+          "marginBottom": 4,
+          "marginRight": 4,
+          "paddingHorizontal": 8,
+          "paddingVertical": 4,
+        }
+      }
+    >
+      flying
+    </Text>
+    <Text
+      style={
+        {
+          "backgroundColor": "#dc07a7",
+          "borderRadius": 4,
+          "color": "#fafafa",
+          "fontSize": 12,
+          "marginBottom": 4,
+          "marginRight": 4,
+          "paddingHorizontal": 8,
+          "paddingVertical": 4,
+        }
+      }
+    >
+      water
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`DreamListCard renders without tags and matches snapshot 1`] = `
+<View
+  accessibilityHint="Opens dream details"
+  accessibilityLabel="Dream from Saturday, 4:30 AM 8/15/26"
+  accessibilityRole="button"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    [
+      {
+        "alignSelf": "stretch",
+        "backgroundColor": "#38105c",
+        "borderRadius": 8,
+        "marginBottom": 16,
+        "padding": 16,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#fafafa",
+        "fontSize": 20,
+        "fontWeight": "bold",
+        "marginBottom": 8,
+      }
+    }
+  >
+    Saturday, 4:30 AM 8/15/26
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#c2f7ff",
+        "fontSize": 10,
+        "marginBottom": 8,
+      }
+    }
+  >
+    (
+    23 days ago
+    )
+  </Text>
+  <Text
+    numberOfLines={3}
+    style={
+      {
+        "color": "#c2f7ff",
+        "fontSize": 16,
+      }
+    }
+  >
+    I was flying over a vast purple ocean with glowing fish beneath the surface.
+  </Text>
+</View>
+`;
+
+exports[`ToggleRow renders OFF state and matches snapshot 1`] = `
+<View
+  accessibilityLabel="Auto-tagging, OFF"
+  accessibilityRole="switch"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": false,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#38105c",
+      "borderRadius": 8,
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "marginBottom": 8,
+      "paddingHorizontal": 16,
+      "paddingVertical": 12,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "flex": 1,
+        "marginRight": 12,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "color": "#fafafa",
+            "fontFamily": "Social Media",
+            "fontSize": 28,
+            "marginBottom": 20,
+            "textAlign": "center",
+          },
+          {
+            "color": "#fafafa",
+            "fontSize": 30,
+            "marginBottom": 0,
+            "textAlign": "left",
+          },
+        ]
+      }
+    >
+      Auto-tagging
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "backgroundColor": "#528490",
+          "borderRadius": 15,
+          "flexDirection": "row",
+          "gap": 4,
+          "height": 30,
+          "minWidth": 56,
+          "paddingHorizontal": 4,
+        },
+        false,
+      ]
+    }
+  >
+    <View
+      style={
+        {
+          "backgroundColor": "#fafafa",
+          "borderRadius": 12,
+          "height": 24,
+          "width": 24,
+        }
+      }
+    />
+    <Text
+      style={
+        {
+          "color": "#fafafa",
+          "fontSize": 9,
+          "fontWeight": "bold",
+          "paddingHorizontal": 2,
+        }
+      }
+    >
+      OFF
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`ToggleRow renders ON state and matches snapshot 1`] = `
+<View
+  accessibilityLabel="Auto-tagging, ON"
+  accessibilityRole="switch"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": true,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#38105c",
+      "borderRadius": 8,
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "marginBottom": 8,
+      "paddingHorizontal": 16,
+      "paddingVertical": 12,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "flex": 1,
+        "marginRight": 12,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "color": "#fafafa",
+            "fontFamily": "Social Media",
+            "fontSize": 28,
+            "marginBottom": 20,
+            "textAlign": "center",
+          },
+          {
+            "color": "#fafafa",
+            "fontSize": 30,
+            "marginBottom": 0,
+            "textAlign": "left",
+          },
+        ]
+      }
+    >
+      Auto-tagging
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "backgroundColor": "#528490",
+          "borderRadius": 15,
+          "flexDirection": "row",
+          "gap": 4,
+          "height": 30,
+          "minWidth": 56,
+          "paddingHorizontal": 4,
+        },
+        {
+          "backgroundColor": "#dc07a7",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#fafafa",
+          "fontSize": 9,
+          "fontWeight": "bold",
+          "paddingHorizontal": 2,
+        }
+      }
+    >
+      ON
+    </Text>
+    <View
+      style={
+        {
+          "backgroundColor": "#fafafa",
+          "borderRadius": 12,
+          "height": 24,
+          "width": 24,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`ToggleRow renders custom on/off labels 1`] = `
+<View
+  accessibilityLabel="Entry Mode, Voice"
+  accessibilityRole="switch"
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": true,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#38105c",
+      "borderRadius": 8,
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "marginBottom": 8,
+      "paddingHorizontal": 16,
+      "paddingVertical": 12,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "flex": 1,
+        "marginRight": 12,
+      }
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "color": "#fafafa",
+            "fontFamily": "Social Media",
+            "fontSize": 28,
+            "marginBottom": 20,
+            "textAlign": "center",
+          },
+          {
+            "color": "#fafafa",
+            "fontSize": 30,
+            "marginBottom": 0,
+            "textAlign": "left",
+          },
+        ]
+      }
+    >
+      Entry Mode
+    </Text>
+  </View>
+  <View
+    style={
+      [
+        {
+          "alignItems": "center",
+          "backgroundColor": "#528490",
+          "borderRadius": 15,
+          "flexDirection": "row",
+          "gap": 4,
+          "height": 30,
+          "minWidth": 56,
+          "paddingHorizontal": 4,
+        },
+        {
+          "backgroundColor": "#dc07a7",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#fafafa",
+          "fontSize": 9,
+          "fontWeight": "bold",
+          "paddingHorizontal": 2,
+        }
+      }
+    >
+      Voice
+    </Text>
+    <View
+      style={
+        {
+          "backgroundColor": "#fafafa",
+          "borderRadius": 12,
+          "height": 24,
+          "width": 24,
+        }
+      }
+    />
+  </View>
+</View>
+`;

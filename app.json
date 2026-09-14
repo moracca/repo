@@ -1,0 +1,94 @@
+{
+  "expo": {
+    "name": "dreamweaver",
+    "slug": "dreamweaver",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.local.dreamweaver",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Allow Dreamweaver to record dream notes.",
+        "NSSpeechRecognitionUsageDescription": "Allow Dreamweaver to transcribe spoken dream notes."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#260044"
+      },
+      "package": "com.local.dreamweaver",
+      "permissions": [
+        "RECORD_AUDIO",
+        "INTERNET"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-sqlite",
+        {
+          "withSQLiteVecExtension": true
+        }
+      ],
+      [
+        "expo-speech-recognition",
+        {
+          "microphonePermission": "Allow Dreamweaver to record dream notes.",
+          "speechRecognitionPermission": "Allow Dreamweaver to transcribe spoken dream notes.",
+          "androidSpeechServicePackages": [
+            "com.google.android.googlequicksearchbox"
+          ]
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "ios": {
+            "fonts": [
+              "./assets/fonts/alba/alba.ttf",
+              "./assets/fonts/alba/albam.ttf",
+              "./assets/fonts/alba/albas.ttf",
+              "./assets/fonts/social-media/social-media.ttf",
+              "./assets/fonts/social-media/social-media.woff"
+            ]
+          },
+          "android": {
+            "fonts": [
+              {
+                "fontFamily": "Alba",
+                "fontDefinitions": [
+                  { "path": "./assets/fonts/alba/alba.ttf", "weight": 400 }
+                ]
+              },
+              {
+                "fontFamily": "Alba Matter",
+                "fontDefinitions": [
+                  { "path": "./assets/fonts/alba/albam.ttf", "weight": 400 }
+                ]
+              },
+              {
+                "fontFamily": "Alba Super",
+                "fontDefinitions": [
+                  { "path": "./assets/fonts/alba/albas.ttf", "weight": 400 }
+                ]
+              },
+              {
+                "fontFamily": "Social Media",
+                "fontDefinitions": [
+                  { "path": "./assets/fonts/social-media/social-media.ttf", "weight": 400 }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "expo-status-bar",
+      "expo-audio"
+    ]
+  }
+}
